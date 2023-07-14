@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
  * main -  lowercase alphabet in reverse
  *
@@ -6,5 +6,5 @@ nclude <stdio.h>
  */
 int main(void)
 {
-        return (0);
+    return (0);
 }
