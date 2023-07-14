@@ -19,7 +19,7 @@ int main(void)
 			}
 			putchar(lp);
 			putchar(x);
-			if (x == 57)
+			if (lp == 56 && x == 57)
 			{
 				continue;
 			}
