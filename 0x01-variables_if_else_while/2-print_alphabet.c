@@ -6,7 +6,13 @@
  */
 int main(void)
 {
-	putchar(65);
+	int n = 97;
+
+	while (n < 123)
+	{
+		putchar(n);
+		n++;
+	}
 	putchar('\n');
 	return (0);
 }
