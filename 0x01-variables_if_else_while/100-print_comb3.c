@@ -6,23 +6,21 @@
  */
 int main(void)
 {
-	int x = 48;
+	int x;
 	int lp;
 
 	for (lp = 48; lp < 58; lp++)
 	{
-		while (x < 58)
+		for (x = (lp+1); x < 58; x++)
 		{
 			if (lp == x)
 			{
-				x++;
 				continue;
 			}
 			putchar(lp);
 			putchar(x);
 			putchar(',');
 			putchar(' ');
-			x++;
 		}
 	}
 	putchar('\n');
