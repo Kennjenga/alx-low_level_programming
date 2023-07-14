@@ -11,7 +11,7 @@ int main(void)
 
 	for (lp = 48; lp < 58; lp++)
 	{
-		for (x = (lp+1); x < 58; x++)
+		for (x = (lp + 1); x < 58; x++)
 		{
 			if (lp == x)
 			{
@@ -19,6 +19,10 @@ int main(void)
 			}
 			putchar(lp);
 			putchar(x);
+			if (x == 57)
+			{
+				continue;
+			}
 			putchar(',');
 			putchar(' ');
 		}
