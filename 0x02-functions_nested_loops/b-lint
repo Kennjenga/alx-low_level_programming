@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main -  lowercase alphabet in reverse
+ * main -  program that prints _putchar
  *
  * Return: 0 (Success)
  */
 int main(void)
 {
-    return (0);
+	return (0);
 }
