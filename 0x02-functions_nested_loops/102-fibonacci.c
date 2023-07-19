@@ -6,7 +6,7 @@
  *
  *Return: seq
  */
-int fib(int n)
+void fib(int n)
 {
 	int first = 0, second = 1, next, i;
 
