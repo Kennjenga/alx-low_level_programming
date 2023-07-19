@@ -8,7 +8,7 @@
  */
 void fib(int n)
 {
-	int first = 0, second = 1, next, i;
+	int first = 1, second = 2, next, i;
 
 	/*printf("Fibonacci Series: ");*/
 	for (i = 0; i < n; i++)
