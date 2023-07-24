@@ -1,1 +1,2 @@
 0x05. C - Pointers, arrays and strings
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-reset_to_98.c -o 0-98
