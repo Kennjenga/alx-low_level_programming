@@ -4,7 +4,7 @@
  *_strlen_recursion - main func 4 len
  *@s: pointer parameter
  *
- *return: length
+ *Return: length
  */
 
 int _strlen_recursion(char *s)
