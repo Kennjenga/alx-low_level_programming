@@ -5,7 +5,7 @@
 *sum_them_all - sums all its parameters
 *@n: first parameter
 *
-*Return: (sum) success (0) null 
+*Return: (sum) success (0) nul
 */
 
 int sum_them_all(const unsigned int n, ...)
